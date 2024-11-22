@@ -1,0 +1,23 @@
+* {
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+#taskList li {
+    padding: 5px;
+    border-bottom: 1px solid #070707;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#taskList li .delete-button {
+    background-color: rgb(219, 49, 139);
+    color: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#taskList li:hover {
+    background-color: #b6b2e3;
+}
